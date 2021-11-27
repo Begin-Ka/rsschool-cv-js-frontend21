@@ -2,7 +2,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
 }
 .aaa {
     width: 500px;
@@ -24,13 +24,13 @@ body {
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
 }
 ul {
-    margin:0;
+    margin:0px;
     padding: 0px;
 }
 li, h3 {
@@ -45,7 +45,7 @@ button {
     color: #888;
     font-size: 15px;
     width: 60px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
     cursor: pointer;
 }
 button:hover {
@@ -71,7 +71,7 @@ input[type="text"] {
     border: 1px solid #dDd;
     background: #FFF;
     border-radius: 6px;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
     color: #888;
 }
 input[type="text"]:focus {
@@ -123,7 +123,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
